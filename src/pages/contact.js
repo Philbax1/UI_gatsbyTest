@@ -2,18 +2,18 @@ import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 
-
-export default function Home() {
+export default function Contact() {
   return (
-    <div style={{ color: `purple` }}>
-		<h1>Home Page</h1>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
-		
+    <div style={{ color: `teal` }}>
+      <Link to="/">Home</Link>
+      <Header headerText="Contact" />
+      <p>Send us a message!</p>
+
 		<Link to="/">Home</Link>
   	    <Link to="/about/">About</Link>
 		<Link to="/contact/">Contact</Link>
 		<Link to="/posts/">Posts</Link>
 		
-	</div>
-  );
+    </div>
+  )
 }

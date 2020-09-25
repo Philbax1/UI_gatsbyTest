@@ -6,7 +6,7 @@ import Header from "../components/header"
 export default function Home() {
   return (
     <div style={{ color: `purple` }}>
-		<h1>Home Page</h1>
+		<h1>Posts</h1>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
 		
 		<Link to="/">Home</Link>
